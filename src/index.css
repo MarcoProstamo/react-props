@@ -1,0 +1,158 @@
+/* # Reset */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  width: 100%;
+  display: inline-block;
+}
+
+body {
+  background-color: #e5e5e5;
+  font-family: sans-serif;
+}
+
+/* # Utils */
+.center {
+  margin: 0 auto;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.bg-dark {
+  background-color: #2f2f2f;
+  color: #e5e5e5;
+}
+
+.my-5 {
+  margin-top: 2.5rem;
+  margin-bottom: 2.5rem;
+}
+
+.py-3 {
+  padding: 1.5rem 0;
+}
+
+.px-3 {
+  padding: 0 1.5rem;
+}
+
+.text-uppercase {
+  text-transform: uppercase;
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+/* # Layout */
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  width: 100vw;
+}
+
+.wrapper > header {
+  margin: 1rem;
+}
+
+.wrapper > main {
+  height: 100%;
+  margin: 0 auto;
+  overflow-y: auto;
+  padding-bottom: 1.5rem;
+}
+
+/* # Card */
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.card {
+  background-color: white;
+  height: 300px;
+  width: 200px;
+  border-radius: 1rem;
+  box-shadow: 1px 1px 0px 1px #ababab;
+}
+
+.card-image {
+  overflow: hidden;
+  border-top-left-radius: 1rem;
+  border-top-right-radius: 1rem;
+}
+
+.card-content {
+  margin: 0.5rem 1rem;
+  font-size: 0.7rem;
+}
+
+.card-content > p {
+  margin-top: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+/* # Button */
+.btn {
+  border-radius: 1rem;
+  border: 0;
+  background-color: #daa420;
+  padding: 0.2rem 0.4rem;
+  font-size: 0.7rem;
+  cursor: pointer;
+}
+
+/* # Badge */
+.badge-html {
+  display: inline-block;
+  border: 0;
+  text-transform: uppercase;
+  font-weight: bold;
+  border-radius: 1rem;
+  background-color: greenyellow;
+  color: black;
+  margin: 0 0.2rem;
+}
+
+.badge-css {
+  display: inline-block;
+  border: 0;
+  text-transform: uppercase;
+  font-weight: bold;
+  border-radius: 1rem;
+  background-color: pink;
+  color: black;
+  margin: 0 0.2rem;
+}
+
+.badge-js {
+  display: inline-block;
+  border: 0;
+  text-transform: uppercase;
+  font-weight: bold;
+  border-radius: 1rem;
+  background-color: red;
+  color: black;
+  margin: 0 0.2rem;
+}
+
+.badge-php {
+  display: inline-block;
+  border: 0;
+  text-transform: uppercase;
+  font-weight: bold;
+  border-radius: 1rem;
+  background-color: yellow;
+  color: black;
+  margin: 0 0.2rem;
+}
